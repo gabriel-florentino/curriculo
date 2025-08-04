@@ -11,11 +11,13 @@
 </head>
 <body>
     <h1>Gabriel Gustavo Camargo Florentino</h1>
+    <p id="start-bio">Sou um desenvolvedor em formação que decidiu revisar todo o <span id="bio" style="display:none;">conteúdo da MDN Web Docs e transformar esse processo em um projeto aberto. Gosto de explicar tudo de forma prática, simples e direta — sem enrolação. Minha meta é consolidar meu conhecimento, ajudar quem está começando e construir um portfólio sólido com projetos que evoluem junto comigo.
+    </span><span id="more" onclick="SeeMore()">Ver mais...</span></p>
     <h3>Desenvolvedor Full Stack Junior</h3>
     <p><strong>Localização:</strong> São Francisco do Sul, SC | Disponível para trabalho remoto</p>
-    <p><strong>Email:</strong> <a href="">gabrielflorentino.contato@gmail.com</a></p>
-    <p><strong>Telefone / WhatsApp:</strong> <a href="">(47) 99659-4157</a></p>
-    <p><strong>Links úteis:</strong> <a href="">Linkedin</a> | <a href="">Github</a> | <a href="">Portifólio</a></p>
+    <p><strong>Email:</strong> <a onclick="Menssage('email')" href="mailto:gabrielflorentino.contato@gmail.com">gabrielflorentino.contato@gmail.com</a></p>
+    <p><strong>Telefone / WhatsApp:</strong> <a onclick="Menssage('WhatsApp')" href="https://api.whatsapp.com/send?phone=5547996594157">(47) 99659-4157</a></p>
+    <p><strong>Links úteis:</strong> <a onclick="Menssage('Linkedin')" href="https://www.linkedin.com/in/gabriel-florentino/">Linkedin</a> | <a onclick="Menssage('Github')" href="https://github.com/gabriel-florentino">Github</a> | <a onclick="Menssage('portifólio')" href="#">Portifólio</a></p>
     <hr/>
     <h2>Resumo Profissional</h2>
     <p class="text"><strong>Desenvolvedor Full Stack Júnior</strong>, formado em Análise e Desenvolvimento de Sistemas, com base técnica sólida e foco em aplicações web modernas. <strong>Experiência</strong> com projetos científicos, incluindo <strong>desenvolvimento de scanner 3D em C++.</strong> Habilidade com <strong>React, Node.js, MySQL</strong> e ferramentas modernas de versionamento e estilo. Buscando a primeira oportunidade na área de tecnologia para aplicar e expandir conhecimentos</p>
@@ -46,7 +48,7 @@
     <h4>Técnico em automação industrial integrado ao ensino médio </h4>
     <p>Instituto Federal Catarinense (IFC) — <i>Concluído em 2022 </i></p> 
     <ul>
-        <li>Desenvolvimento de <strong>artigo científico</strong> sobre <a href="">USO DE GEOTECNOLOGIA PARA INTEGRAÇÃO DE SABERES NOS ESPAÇOS DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA</a></li>
+        <li>Desenvolvimento de <strong>artigo científico</strong> sobre <a onclick="Menssage('artigo ciêntifico')" href="https://publicacoes.ifc.edu.br/index.php/micti/article/view/2586/1993">USO DE GEOTECNOLOGIA PARA INTEGRAÇÃO DE SABERES NOS ESPAÇOS DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA</a></li>
         <li>Projeto técnico de um <strong>scanner 3D, físico e software em C + +</strong> capaz de interpretar coordenadas e renderizar um objeto 3D virtual.</li>
     </ul>
     <hr/>
@@ -62,14 +64,16 @@
     </ul>    
     <hr/>
     <h2>Projetos ou Conquistas Relevantes</h2>
-    <h4>Página de login completa</h4>
+    <h4>Página de login completo</h4>
     <ul>
         <li><strong>Descrição:</strong> Módulo completo de login seguro e responsivo para a plataforma RecruteiDev, com foco em segurança, performance e boa UX.</li>
         <li><strong>Tecnologias:</strong> React, Tailwind, Framer Motion, yup, React Hook Form, JWT, Local Storage, Context API, Vite, Cleave.js</li>
-        <li><strong>Resultado:</strong><a href=""> Acesse github</a> | <a href="">Deploy aqui!</a></li>
+        <li><strong>Resultado:</strong><a onclick="Menssage('Github do projeto')" href="https://github.com/gabriel-florentino/login-recruteiiDev"> Acesse github</a> | <a onclick="Menssage('deploy do projeto')" href="https://login-recruteii-dev.vercel.app/">Deploy aqui!</a></li>
     </ul>
     <hr/>
-    <p><i>Disponível para início imediato!</i></p>
+    <span><i>Disponível para início imediato!</i></span>
+    <span id="clock"></span>
     <br/>
 </body>
+<script src="script.js"></script>
 </html>

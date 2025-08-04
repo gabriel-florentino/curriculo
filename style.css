@@ -4,8 +4,8 @@
 }
 body{
     padding: 1rem;
-    margin: 10% auto;
-    max-width:650px;
+    margin: 5% auto;
+    max-width:700px;
     width: 80%;
     font-family: "Montserrat", sans-serif;
 }
@@ -27,13 +27,28 @@ h3, h4{
 }
 h5, h6, p{
     font-size: 16px;
-    padding-left: 25px;
     font-weight: 400;
+    line-height: 22px;
 }
 a{
     text-decoration:none;
     color:navy;
 }
+ul{
+    padding: 20px 0;
+}
 .text, li{
+    line-height: 22px;
     text-align: justify;
+}
+li{
+    margin-left: 50px;
+}
+#clock{
+    margin-left: 20px;
+}
+#more{
+    margin-left: 10px;
+    color: navy;
+    cursor: pointer;
 }

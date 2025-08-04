@@ -11,7 +11,7 @@ Este projeto é uma página de currículo simples com recursos básicos em HTML,
 ### 🎓 Módulos do projeto principal
 
 - 🌐 **Internet** – já disponível  
-- 💡 **Meu primeiro site** – em desenvolvimento  
+- 💡 **Meu primeiro site** – em desenvolvimento 
 - 📝 **HTML** – em desenvolvimento  
 - 🎨 **CSS** – em breve  
 - 📜 **JavaScript** – em breve  
@@ -23,10 +23,10 @@ Este projeto é uma página de currículo simples com recursos básicos em HTML,
 
 ## ✨ Funcionalidades deste subprojeto
 
-- Modo Dark/Light com botão interativo - Em desenvolvimento
-- Alerta ao trocar o tema - Em desenvolvimento
-- Relógio dinâmico em tempo real - Em desenvolvimento
-- Botão de “Voltar ao Topo” com rolagem suave - Em desenvolvimento
+- Estrutura HTML e estilização CSS simples
+- Alerta ao sair da página para links externos
+- Relógio dinâmico em tempo real no rodapé da aplicação
+- Bio com botão de ver mais
 
 ---
 
