@@ -1,4 +1,5 @@
 # 📄 Projeto: Meu Currículo (Módulo 2 – My MDN Docs)
+[👉 Deploy Aqui!](https://gabriel-florentino.github.io/curriculo/)
 
 Este projeto é uma página de currículo simples com recursos básicos em HTML, CSS e JavaScript. Ele serve como **atividade prática do módulo 2** do projeto maior chamado [**My MDN Docs**](https://github.com/gabriel-florentino/my-mdndocs), um repositório de estudos e revisões baseado na documentação da MDN Web Docs.
 
